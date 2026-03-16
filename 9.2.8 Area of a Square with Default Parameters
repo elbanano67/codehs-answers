@@ -1,0 +1,13 @@
+# Define the function with a default parameter of 10
+def calculate_area(side_length=10):
+    area = side_length * side_length
+    print("The area of a square with sides of length " + str(side_length) + " is " + str(area))
+
+# Get user input
+user_input = int(input("Enter a side length: "))
+
+# Call the function: use default if user input is 0 or less, otherwise use input
+if user_input <= 0:
+    calculate_area()
+else:
+    calculate_area(user_input)
