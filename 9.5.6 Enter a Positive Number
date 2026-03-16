@@ -1,0 +1,13 @@
+def retrieve_positive_number():
+    while True:
+        try:
+            x = int(input("Please enter a positive number: "))
+            if x > 0:
+                return x
+            else:
+                print("The value must be positive. Please try again.")
+        except ValueError:
+            print("An error has occurred. That's not an integer.")
+
+positive_number = retrieve_positive_number()
+print(f"You entered: {positive_number}")
