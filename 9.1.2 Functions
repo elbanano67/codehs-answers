@@ -1,0 +1,8 @@
+Question 1: 
+
+def print_hello():
+    print("hello")
+
+Question 2:
+
+print_sum()
