@@ -1,0 +1,19 @@
+# Converts Celsius to Fahrenheit
+def to_F(c):
+    return float(1.8 * c + 32)
+
+# Converts Fahrenheit to Celsius
+def to_C(f):
+    return float((f - 32) / 1.8)
+
+# Change 0°C to °F
+print(to_F(0))  # Expected output: 32°F
+
+# Change 100°C to °F
+print(to_F(100))  # Expected output: 212°F
+
+# Corrected: Now change 40°F to °C
+print(to_C(40))  # Expected output: Approximately 4.444°C
+
+# Corrected: Now change 80°F to °C
+print(to_C(80))  # Expected output: Approximately 26.667°C
