@@ -1,0 +1,23 @@
+# Converts Celsius to Fahrenheit
+def convert_C_to_F(c):
+    f = ((1.8 * c) + 32)
+    return float(f)
+
+# Converts Fahrenheit to Celsius
+def convert_F_to_C(f):
+    c = ((f - 32) / 1.8)
+    return float(c)
+
+# Attempt to get Celsius input from the user
+try:
+    celsius = float(input("Enter a temperature in Celsius: "))
+    print(f"{celsius}C is {convert_C_to_F(celsius)}F")
+except ValueError:
+    print("An error has occurred")
+
+# Attempt to get Fahrenheit input from the user
+try:
+    fahrenheit = float(input("Enter a temperature in Fahrenheit: "))
+    print(f"{fahrenheit}F is {convert_F_to_C(fahrenheit)}C")
+except ValueError:
+    print("An error has occurred")
