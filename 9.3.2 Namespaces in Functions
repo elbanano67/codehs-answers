@@ -1,0 +1,8 @@
+Question 1:
+Global namespace
+Question 2: 
+
+def subtract_nums():
+    y = 5
+    z = x - y
+    print(z)
