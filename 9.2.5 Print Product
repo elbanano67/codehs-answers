@@ -1,0 +1,5 @@
+def product(x, y):
+    return x * y
+
+result = product(2, 3)
+print(result)
