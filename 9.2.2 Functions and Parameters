@@ -1,0 +1,9 @@
+Question 1:
+
+print_number(10)
+
+Question 2:
+
+
+def print_number(x):
+    print(x)
