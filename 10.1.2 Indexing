@@ -1,0 +1,12 @@
+Question 1:
+
+
+my_string = "ABCDE"
+print(my_string[0])
+
+
+Question 2: 
+
+
+my_string = "ABCDE"
+print(my_string[-1])
