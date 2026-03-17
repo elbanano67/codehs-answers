@@ -1,0 +1,7 @@
+total = 0
+
+for i in range(3):
+    next = int(input("Ingresa una calificación: "))
+    total = total + next
+    
+print("Promedio: " + str(total/3))
