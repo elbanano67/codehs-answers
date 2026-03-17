@@ -1,0 +1,11 @@
+QUESTION 1:
+
+
+for i in range(10):
+    print("hi")
+
+
+QUESTION 2:
+
+
+A for loop is for doing something a fixed number of times.
