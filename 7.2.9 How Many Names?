@@ -1,0 +1,8 @@
+num_of_names = int(input("How many names do you have? "))
+name = ""
+
+for i in range(num_of_names):
+    individual_name = input("Enter each of your names: ")
+    name += individual_name + " "
+
+print(name)
