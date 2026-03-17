@@ -1,0 +1,7 @@
+if (<condición>) {
+    //Haz algo si la condición es verdadera
+} else if (<condición diferente>) {
+    //Haz algo si esta condición es verdadera
+} else {
+    //Haz algo si ninguna condición es verdadera
+}
